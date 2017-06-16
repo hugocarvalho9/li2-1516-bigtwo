@@ -1,0 +1,14 @@
+ESTADO str2estado (char*); 
+char* estado2str (ESTADO);  
+ESTADO ajuda (ESTADO); 
+ESTADO baralha (ESTADO); 
+ESTADO seleciona_primeira (ESTADO);
+ESTADO seleciona_comb_maior_naipe (ESTADO);
+ESTADO seleciona_comb_maior_valor (ESTADO);
+ESTADO seleciona_straight_igual (ESTADO);
+ESTADO seleciona_straight (ESTADO);
+ESTADO seleciona_flush_igual_naipe(ESTADO);
+ESTADO seleciona_flush(ESTADO);
+ESTADO seleciona_fullhouse (ESTADO);
+ESTADO seleciona_straight_flush (ESTADO);
+ESTADO seleciona_4OfAKind (ESTADO);

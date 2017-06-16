@@ -1,0 +1,11 @@
+void imprime_carta(char *, int, int, ESTADO, int, int, int);
+void imprime_jogar (ESTADO);
+void imprime_vencedor (ESTADO, int);
+void imprime_passar (ESTADO);
+void imprime_ajuda (ESTADO);
+void imprime_ordena	(ESTADO);
+void imprimeVAL (char *, ESTADO);
+void imprimeNAI (char *, ESTADO);
+void imprime_info (ESTADO);
+ESTADO jogar (ESTADO); 
+ESTADO passar (ESTADO);
